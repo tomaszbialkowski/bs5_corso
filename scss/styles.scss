@@ -1,22 +1,27 @@
 .header {
-    min-height: 1000px;
-    background: linear-gradient(to bottom right, rgba(0,0,0,0.55), rgba(0,0,0,0.95)), url('../images/header-background.jpg') center center no-repeat;
-    background-size: cover;
+  min-height: 1000px;
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("../images/header-background.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 .navbar {
-    backdrop-filter: blur(5px);
-    background:rgba(33, 37, 41, 0.7);
-    border-bottom: 1px solid rgb(42, 48, 53);
+  backdrop-filter: blur(5px);
+  background: rgba(33, 37, 41, 0.7);
+  border-bottom: 1px solid rgb(42, 48, 53);
 }
 
-@media(max-width: 992px) {
-    .navbar {
-        background: var(--bs-dark);
-    }
+@media (max-width: 992px) {
+  .navbar {
+    background: var(--bs-dark);
+  }
 }
 
 .header .slide {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
